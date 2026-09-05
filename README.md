@@ -38,6 +38,10 @@
 
 [![asciicast](https://asciinema.org/a/GDAlv2S4Oiw1XqYE.svg)](https://asciinema.org/a/GDAlv2S4Oiw1XqYE)
 
+### Игра: Brain progression (Нахождение пропущенного элемента прогрессии)
+
+[![asciicast](https://asciinema.org/a/bQ9pG98FSmdBh9R6.svg)](https://asciinema.org/a/bQ9pG98FSmdBh9R6)
+
 ---
 
 ### Hexlet tests and linter status:
