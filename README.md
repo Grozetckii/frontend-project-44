@@ -42,6 +42,10 @@
 
 [![asciicast](https://asciinema.org/a/bQ9pG98FSmdBh9R6.svg)](https://asciinema.org/a/bQ9pG98FSmdBh9R6)
 
+### Игра: Brain prime (Простое ли число)
+
+[![asciicast](https://asciinema.org/a/nAMOZOOqxGqPHYES.svg)](https://asciinema.org/a/nAMOZOOqxGqPHYES)
+
 ---
 
 ### Hexlet tests and linter status:
