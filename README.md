@@ -34,6 +34,10 @@
 
 [![asciicast](https://asciinema.org/a/k9IY1Pnf9tiDKXJR.svg)](https://asciinema.org/a/k9IY1Pnf9tiDKXJR)
 
+### Игра: Brain gcd (Нахождение НОД)
+
+[![asciicast](https://asciinema.org/a/GDAlv2S4Oiw1XqYE.svg)](https://asciinema.org/a/GDAlv2S4Oiw1XqYE)
+
 ---
 
 ### Hexlet tests and linter status:
