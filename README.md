@@ -28,9 +28,11 @@
 
 ### Игра: Brain even (Проверка на чётность)
 
-Ниже представлена запись игрового процесса в терминале:
-
 [![asciicast](https://asciinema.org/a/JvzUlDrL7cUwUVAt.svg)](https://asciinema.org/a/JvzUlDrL7cUwUVAt)
+
+### Игра: Brain calc (Вычисления)
+
+[![asciicast](https://asciinema.org/a/k9IY1Pnf9tiDKXJR.svg)](https://asciinema.org/a/k9IY1Pnf9tiDKXJR)
 
 ---
 
