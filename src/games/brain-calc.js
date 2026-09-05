@@ -1,13 +1,13 @@
 import _ from "lodash";
 
-const minRandNum = 0;
-const maxRandNum = 100;
+const MIN_RAND = 0;
+const MAX_RAND = 100;
 
 export const getDescription = () => "What is the result of the expression?";
 
 export const generateRound = () => {
-  const num1 = _.random(minRandNum, maxRandNum, false);
-  const num2 = _.random(minRandNum, maxRandNum, false);
+  const num1 = _.random(MIN_RAND, MAX_RAND, false);
+  const num2 = _.random(MIN_RAND, MAX_RAND, false);
   const operation = _.sample(["+", "-", "*"]);
   const question = `${num1} ${operation} ${num2}`;
   let correctAnswer;

@@ -1,13 +1,13 @@
 import _ from "lodash";
 
-const minRandInt = 1;
-const maxRandInt = 100;
+const MIN_RAND = 1;
+const MAX_RAND = 100;
 
 export const getDescription = () => "Find the greatest common divisor of given numbers.";
 
 export const generateRound = () => {
-  const num1 = _.random(minRandInt, maxRandInt, false);
-  const num2 = _.random(minRandInt, maxRandInt, false);
+  const num1 = _.random(MIN_RAND, MAX_RAND, false);
+  const num2 = _.random(MIN_RAND, MAX_RAND, false);
   const question = `${num1} ${num2}`;
   const correctAnswer = String(getGcd(num1, num2));
 
