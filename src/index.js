@@ -1,25 +1,8 @@
 import readlineSync from "readline-sync";
-import * as evenGame from "./games/brain-even.js";
-import * as calcGame from "./games/brain-calc.js";
 
 const ROUNDS_COUNT = 3;
-const GAMES_REGISTRY = {
-  even: evenGame,
-  calc: calcGame,
-};
 
-function startGame(gameName) {
-  const selectedGame = GAMES_REGISTRY[gameName];
-
-  if (!selectedGame) {
-    console.error(`Ошибка: Игра "${gameName}" не найдена.`);
-    return;
-  }
-
-  runEngine(selectedGame);
-}
-
-export const runEngine = (game) => {
+function startGame(game) {
   console.log("Welcome to the Brain Games!");
   const userName = readlineSync.question("May I have your name? ");
   console.log(`Hello, ${userName}!`);
@@ -40,6 +23,6 @@ export const runEngine = (game) => {
   }
 
   console.log(`Congratulations, ${userName}!`);
-};
+}
 
 export default startGame;
